@@ -1,0 +1,155 @@
+html{
+    height:100%;
+    display:flex;
+}
+body{
+    flex-grow:1;
+    display:flex;
+    flex-direction:column;
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+.img{
+    background-image:url(./images/bg-main-desktop.png);
+    width: 480px;
+    height:700px;
+}
+.container{
+    position:relative;
+    
+}
+.card1{
+    background-image:url(./images/bg-card-front.png);
+    width:440px;
+    height:240px;
+    position:absolute;
+    top:110px;
+    left: 180px;
+    border-radius:10px;
+}
+.star{
+    background-image:url(./images/favicon-32x32.png);
+    width:32px;
+    height:32px;
+    margin-top:25px;
+    margin-left: 25px;
+    position:absolute;
+
+}
+.num{
+    color:white;
+    font-size:25px;
+    word-spacing:5px;
+    letter-spacing:5px;
+    position:absolute;
+    left: 33px;
+    top:110px;
+}
+.name{
+    color:white;
+    letter-spacing:2px;
+    word-spacing:5px;
+    position:absolute;
+    left:30px;
+    top:180px;
+}
+.num2{
+    color:white;
+    letter-spacing:2px;
+    position:absolute;
+    left:370px;
+    top: 180px;
+}
+.circle{
+    border:1px solid white;
+    width:15px;
+    height:15px;
+    border-radius:25px;
+    position: absolute;
+    left:70px;
+    top:17px;
+}
+.card2{
+    background-image:url(./images/bg-card-back.png);
+    width:440px;
+    height:240px;
+    position:absolute;
+    top:380px;
+    left:300px;
+}
+.input{
+    position:absolute;
+    left:700px;
+    padding:100px;
+    
+}
+.input-name input{
+    padding-left:10px;
+    font-size:1.5em;
+    border-radius:5px;
+    border-color:blue; 
+    margin-top:5px; 
+    width:400px;  
+}
+.input-name label{
+    font-size:1em;
+    font-family: sans-serif;
+    letter-spacing:2px;
+    
+}
+.input-number input{
+    padding-left:10px;
+    font-size:1.5em;
+    border-radius:5px;
+    border-color:blue; 
+    margin-top:10px; 
+    width:400px;    
+}
+.input-number label{
+    font-size:1em;
+    font-family: sans-serif;
+    letter-spacing:2px; 
+     
+}
+.input-number{
+    margin-top:25px;
+}
+.exp-date{
+    margin-top:25px;
+}
+.exp-date label{
+    font-size:1em;
+    font-family: sans-serif;
+    letter-spacing:2px;
+    display: block; 
+
+}
+
+.exp-date input{
+    padding-left:10px;
+    font-size:1.5em;
+    border-radius:5px;
+    border-color:blue; 
+    margin-top:10px; 
+    width:100px;
+    height:50px;
+}
+.cvc{
+    margin-left:250px;
+    margin-top:-85px;
+}
+.cvc input{
+    width:150px;
+}
+button{
+    width:100%;
+    margin-top:30px;
+    background-color:black;
+    color:white;
+    font-size:1.5em;
+    text-align:center;
+    padding:10px 20px;
+    border-radius:10px
+}
